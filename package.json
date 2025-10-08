@@ -1,0 +1,45 @@
+{
+  "name": "eppay-shopify",
+  "version": "1.0.0",
+  "description": "EpPay cryptocurrency payment gateway for Shopify stores",
+  "main": "app/index.js",
+  "scripts": {
+    "dev": "node app/index.js",
+    "start": "NODE_ENV=production node app/index.js",
+    "tunnel": "ngrok http 3000",
+    "test": "jest"
+  },
+  "keywords": [
+    "shopify",
+    "shopify-app",
+    "eppay",
+    "cryptocurrency",
+    "crypto-payment",
+    "payment-gateway",
+    "blockchain"
+  ],
+  "author": "EpPay <support@eppay.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nashaib/eppay-shopify.git"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^10.0.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "qrcode": "^1.5.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "ngrok": "^5.0.0",
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
