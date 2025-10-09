@@ -1,0 +1,20 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "eppay-crypto-payments"
+client_id = "993229ad9029a8e6c41a3fd27eff3ab7"
+application_url = "https://eppay.io/shopify"
+embedded = false
+
+[access_scopes]
+scopes = "write_orders,read_orders"
+
+[auth]
+redirect_urls = [
+  "https://eppay.io/shopify/auth/callback"
+]
+
+[webhooks]
+api_version = "2025-10"
+
+[pos]
+embedded = false
