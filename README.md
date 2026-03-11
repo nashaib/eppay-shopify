@@ -311,7 +311,7 @@ docker run -p 3000:3000 --env-file .env eppay-shopify
 
 - **Documentation**: [eppay.io/docs](https://eppay.io/docs)
 - **Issues**: [GitHub Issues](https://github.com/nashaib/eppay-shopify/issues)
-- **Email**: support@eppay.io
+- **Email**: info@eppay.io
 
 ## Security
 

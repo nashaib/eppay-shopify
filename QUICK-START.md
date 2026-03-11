@@ -164,7 +164,7 @@ async function payWithEpPay() {
 
 ### Need help?
 
-- Email: support@eppay.io
+- Email: info@eppay.io
 - Documentation: [eppay.io/docs](https://eppay.io/docs)
 - GitHub Issues: [github.com/nashaib/eppay-shopify/issues](https://github.com/nashaib/eppay-shopify/issues)
 
